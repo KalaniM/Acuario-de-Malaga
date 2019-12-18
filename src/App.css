@@ -12,24 +12,77 @@
 .Nav {
   display: flex;
   flex-direction: row;
+  font-size: 2em;
+  color: black;
 }
 .Nav > img {
   left: 60px;
 }
 
 .App-article {
-  background-color: red;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.skeleton {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.skeleton p {
+  padding: 20px;
+  width: 35vw;
+}
+.birdOnMola {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.birdOnMola p {
+  padding: 20px;
+  width: 35vw;
+  float: right;
+}
+
+.App-article p {
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 aside {
   background-color: yellow;
+
+}
+
+.button {
+  background-color: white;
+  border: none;
+  margin: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: solid 1px black;
+  font-size: 16px;
+  transition: all 0.5s ease;
+
+}
+.button:hover {
+  background: #434343;
+  color: white;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
 }
 
 /* .App-article {
-  display: flex;
-  flex-direction: row;
-} */
-/* .Article {
+
+}
+ .Article {
   display: flex;
   flex-direction: row;
 }

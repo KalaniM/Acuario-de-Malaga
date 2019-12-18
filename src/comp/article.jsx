@@ -5,14 +5,15 @@ class Article extends PureComponent {
     render() {
         return ( <div>
             <img alt="MolaMola" src={MolaMola}/>
-            <h3>Le sunfish</h3>
             <p>
                 Le Mola Mola, de son nom scientifique, est un poisson lune des eaux profondes tropicales. De la famille des Molidae, il est présents où les eaux sont tempérées, sa chair n'est pas particulièrement appréciée, il se distingue surtout de part sa morphologie et ses habitudes originales.
             </p>
+            <div class="skeleton">
             <p>
                 Malgré un régime alimentaire pourtant pauvre, composé essentiellement de méduses et de zooplancton, ainsi que des calamars et des crustacés, le Mola Mola peut mesurer jusqu'à 3 m et peser 3 tonnes. Il est le plus gros poisson osseux du règne animal. Le spécimen le plus gros jamais observé est une femelle de 2200 kg (ce qui équivaut au poids moyen d'un rhinocéros adulte), pêchée en 1996.
             </p>
             <img alt="skeletonMola" src={skeletonMola}/>
+            </div>
             <p>
                 Le MolaMola est équipé d'une mâchoire très puissante qui est à l'image d'un bec de perroquet incisif. Il n'est pas capable de clore la bouche ce qui peut lui donner cet air étonné caractéristique. Il a également une rangée de dents à l'intérieur même de sa gorge.
             </p>
@@ -27,10 +28,12 @@ class Article extends PureComponent {
             <p>
                 Les MolaMola descendent jusqu'à plus de 200m sous la surface dans le but de chasser leur nourriture. Malgré un corps imposant et peu harmonieux, ce vertébré n'a aucune difficulté à se déplacer. Il nage aussi vite que ses cousins requins et il peut parcourir jusqu'à 26km par jours. Parfois il arrive qu'il se cogne aux coques de bateaux qui peuvent être endommagées.
             </p>
-            <img alt="birdOnMola" src={birdOnMola}/>
+            <div class="birdOnMola">
             <p>
                 Couverts de parasites, on dénombre plus d'une cinquantaine d'espèces habitants sur et à l'intérieur de leurs corps. Pour s'en débarrasser, le MolaMola s'attarde à fleur de l'eau pour permettre aux oiseaux de le débarrasser de ces parasites.
             </p>
+            <img alt="birdOnMola" src={birdOnMola}/>
+            </div>
             <p>
                 Les prédateurs naturels de ce vertébré sont les lions de mer, les orques et les requins dont le tranchant des dents permet de déchirer la peau dure du MolaMola. Cependant l'espèce est aujourd'hui menacée par la surpêche qui a décimé 80% de sa population, bien que sa chair ne soit pas convoitée. Le vertébré est également victime de la pollution maritime.
             </p>
