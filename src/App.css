@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: blue;
+  background-color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -12,11 +12,25 @@
 .Nav {
   display: flex;
   flex-direction: row;
-  font-size: 2em;
-  color: black;
 }
 .Nav > img {
   left: 60px;
+}
+.menu {
+  display: flex;
+}
+.menu h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 1.8em;
+  margin: 50px;
+  max-width: 100px;
+}
+.menu hr {
+  width: 5px;
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 
 .App-article {

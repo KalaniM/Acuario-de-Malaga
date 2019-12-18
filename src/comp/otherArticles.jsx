@@ -11,7 +11,6 @@ class OtherArticles extends PureComponent {
             <aside>
                 <h4>Explorer</h4>
                 <h5>La saison des baleines à Malaga</h5>
-                <hr/>
             </aside>
             <aside>
                 <h4>Enquete</h4>
