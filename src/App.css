@@ -51,11 +51,6 @@
   margin-top: 20px;
 }
 
-aside {
-  background-color: yellow;
-
-}
-
 .button {
   background-color: white;
   border: none;
@@ -67,17 +62,34 @@ aside {
   border: solid 1px black;
   font-size: 16px;
   transition: all 0.5s ease;
-
+  
 }
 .button:hover {
   background: #434343;
   color: white;
-letter-spacing: 1px;
--webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-transition: all 0.4s ease 0s;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
 }
+
+aside {
+  background-color: white;
+  text-align: right;
+  margin: 50px;
+  margin-right: 10px;
+}
+aside h4 {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+aside hr {
+  height: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+
 
 /* .App-article {
 
