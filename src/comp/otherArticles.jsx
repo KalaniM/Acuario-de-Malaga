@@ -6,6 +6,7 @@ class OtherArticles extends PureComponent {
             <aside >
                 <h4>Découverte</h4>
                 <h5>Le Sunfish</h5>
+                <hr/>
             </aside>
             <aside>
                 <h4>Explorer</h4>
