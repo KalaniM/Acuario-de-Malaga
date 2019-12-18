@@ -1,0 +1,8 @@
+Sitemap: http://Acuario-de-Malaga.website/sitemap.xml
+
+User-agent: *
+Allow: /
+
+
+
+

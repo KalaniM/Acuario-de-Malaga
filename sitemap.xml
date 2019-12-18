@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>http://Acuario-de-Malaga.website/</loc>
+		<changefreq>never</changefreq>
+    <priority>1.0</priority>
+	</sitemap>
+	<sitemap>
+		<loc>http://Acuario-de-Malaga.website/le-musee</loc>
+		<changefreq>never</changefreq>
+    <priority>0.9</priority>
+	</sitemap>
+  	<sitemap>
+		<loc>http://Acuario-de-Malaga.website/les-expositions</loc>
+		<changefreq>never</changefreq>
+    <priority>0.9</priority>
+	</sitemap>
+  	<sitemap>
+		<loc>http://Acuario-de-Malaga.website/le-restaurant</loc>
+		<changefreq>never</changefreq>
+    <priority>0.9</priority>
+	</sitemap>
+  	<sitemap>
+		<loc>http://Acuario-de-Malaga.website/le-blog</loc>
+		<changefreq>never</changefreq>
+    <priority>0.9</priority>
+	</sitemap>
+  <sitemap>
+		<loc>http://Acuario-de-Malaga.website/article-1</loc>
+		<changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+	</sitemap>
+  <sitemap>
+		<loc>http://Acuario-de-Malaga.website/article-2</loc>
+		<changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+	</sitemap>
+  <sitemap>
+		<loc>http://Acuario-de-Malaga.website/article-3</loc>
+		<changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+	</sitemap>
+</sitemapindex>
+
+
+ 
