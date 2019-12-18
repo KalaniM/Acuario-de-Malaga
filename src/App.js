@@ -3,14 +3,17 @@ import './App.css';
 import Nav from './comp/nav';
 import Article from './comp/article';
 
+import OtherArticles from './comp/otherArticles';
+
 function App() {
     return ( <div className="App">
         <header className="App-header">
             <Nav/>
-            <article>
-                <Article/>
-            </article>
         </header>
+        <div className="App-article">
+            <Article/>
+            <OtherArticles/>
+        </div>
     </div> );
 }
 

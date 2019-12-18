@@ -1,17 +1,12 @@
 .App {
-  display: flex;
   margin: 0px 60px 0px 60px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: blue;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .Nav {
@@ -19,9 +14,25 @@
   flex-direction: row;
 }
 .Nav > img {
-  position: absolute;
   left: 60px;
 }
-.Nav > h2 {
-  margin-right: 60px;
+
+.App-article {
+  background-color: red;
 }
+
+aside {
+  background-color: yellow;
+}
+
+/* .App-article {
+  display: flex;
+  flex-direction: row;
+} */
+/* .Article {
+  display: flex;
+  flex-direction: row;
+}
+article {
+  width: 300px;
+} */
