@@ -1,4 +1,5 @@
 .App {
+<<<<<<< Updated upstream
   text-align: center;
 }
 
@@ -11,22 +12,22 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+=======
+  margin: 0px 60px 0px 60px;
+>>>>>>> Stashed changes
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: blue;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
+<<<<<<< Updated upstream
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +36,28 @@
   to {
     transform: rotate(360deg);
   }
+=======
+.Nav > img {
+  left: 60px;
 }
+
+.App-article {
+  background-color: red;
+}
+
+aside {
+  background-color: yellow;
+}
+
+/* .App-article {
+  display: flex;
+  flex-direction: row;
+} */
+/* .Article {
+  display: flex;
+  flex-direction: row;
+>>>>>>> Stashed changes
+}
+article {
+  width: 300px;
+} */
