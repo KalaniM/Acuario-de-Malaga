@@ -1,30 +1,27 @@
-.App {
-  margin: 0px 60px 0px 60px;
-}
-
 .App-header {
   background-color: white;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: center;
 }
-
 .Nav {
   display: flex;
   flex-direction: row;
 }
 .Nav > img {
-  left: 60px;
+  margin-right: 60px;
 }
 .menu {
+  height: 130px;
   display: flex;
+  align-self: normal;
 }
 .menu h2 {
   color: black;
   font-weight: bold;
   font-size: 1.8em;
-  margin: 50px;
-  max-width: 100px;
+  margin: 40px 60px 0px 20px;
+  cursor: pointer;
 }
 .menu hr {
   width: 5px;
@@ -32,39 +29,75 @@
   border-radius: 10px;
   margin-left: 20px;
 }
-
+.menu hr:last-child {
+  height: 170px;
+}
 .App-article {
   background-color: white;
   display: flex;
   flex-direction: row;
 }
-.skeleton {
+.mainArticle {
+  width: 100vw;
+}
+.mainArticle h1 {
+  color: whitesmoke;
+  z-index: 5;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 310px;
+  left: 130px;
+  font-size: 124px;
+  font-weight: 900;
+}
+.molaArticle {
+  position: absolute;
+  z-index: 2;
+  margin-top: 40px;
+  margin: auto;
+  right: 570px;
+  top: 570px;
+  width: 750px;
+}
+.molaMola {
+  position: absolute;
+  width: 1000px;
+  z-index: 1;
+}
+.backgrondColor {
+  position: absolute;
+  position: absolute;
+  top: 460px;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 13%,
+    rgb(255, 255, 255) 47%,
+    rgb(255, 255, 255) 100%
+  );
+  width: 1140px;
+  z-index: 2;
+  height: 370px;
+}
+.skeletonSection {
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
   margin-top: 10px;
+  align-items: center;
 }
-
-.skeleton p {
-  padding: 20px;
-  width: 35vw;
-}
-.birdOnMola {
+.birdOnMolaSection {
   display: flex;
   flex-direction: row;
-  margin: 20px;
+  margin-top: 10px;
+  align-items: center;
 }
-.birdOnMola p {
-  padding: 20px;
-  width: 35vw;
-  float: right;
+.birdOnMola {
+  margin-left: 20px;
 }
-
 .App-article p {
-  margin-right: 20px;
   margin-top: 20px;
+  font-size: 20px;
 }
-
 .button {
   background-color: white;
   border: none;
@@ -76,42 +109,30 @@
   border: solid 1px black;
   font-size: 16px;
   transition: all 0.5s ease;
-  
 }
 .button:hover {
   background: #434343;
   color: white;
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
 }
-
 aside {
-  background-color: white;
+  cursor: pointer;
   text-align: right;
-  margin: 50px;
-  margin-right: 10px;
+  margin: 80px 180px 0px -550px;
 }
 aside h4 {
   font-weight: bold;
   font-size: 1.8em;
+  margin-top: 10px;
+}
+aside h5 {
+  margin: 10px 0 20px 0px;
 }
 aside hr {
   height: 5px;
   background-color: black;
   border-radius: 10px;
 }
-
-
-
-/* .App-article {
-
-}
- .Article {
-  display: flex;
-  flex-direction: row;
-}
-article {
-  width: 300px;
-} */
