@@ -1,20 +1,19 @@
 import React, { PureComponent } from 'react';
-import Article from './comp/article';
-import OtherArticles from './comp/otherArticles';
+import Article from './article';
+import OtherArticles from './otherArticles';
+import Header from './header';
 
 class Redirect extends PureComponent {
   render() {
-    return(
-      <div>
-        <div className="App-article">
-          <Article/>
-          <OtherArticles/>
-        </div>
-
+    return ( <div>
+      <Header/>
+      <div className="App-article">
+        <Article/>
+        <OtherArticles/>
       </div>
-    )
+
+    </div> )
   }
 };
-
 
 export default Redirect
