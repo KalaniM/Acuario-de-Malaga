@@ -50,7 +50,7 @@ class Article extends PureComponent {
         </p>
         <p>
           Découvrez l'offre originale proposée par notre restaurant gastronomique. Re-découvrez la joie du partage d'un repas dans les traditions de la cuisine typique espagnole. Profitez du décor exceptionnel de l'aquarium pour savourer les mets les plus fins de la gastronomie nationale. Au menu,
-          <a href="https://fr.wikipedia.org/wiki/Jambon_ib%C3%A9rique">
+          <a href="https://gourmets-du-monde.netlify.com/?fbclid=IwAR36qdrUdcqzOxkauwWlbXfhARj_etMpRvya37JlNVg8WY2uSOWY4_fCiOs">
              jambon espagnol
           </a>, gaspacho, Boquerones…. Il y en a pour tous les goûts.
         </p>
