@@ -142,3 +142,56 @@ aside hr {
   background-color: black;
   border-radius: 10px;
 }
+
+
+.landing img {
+  width: auto;
+  height: 75vh;
+  margin-left: 10vw;
+  /* border: solid 10px black; */
+}
+.landing .content-left {
+  position: absolute;
+  bottom: 20%;
+  left: 15vw;
+  letter-spacing: 3px;
+  color: white;
+  font-size: 4em;
+  font-weight: bolder;
+}
+.landing .content-right h2{
+  background-color: transparent;
+  position: absolute;
+  bottom: 30%;
+  left: 63%;
+  letter-spacing: 3px;
+  color: white;
+  font-size: 2em;
+  font-weight: bolder;
+  max-width: 17vw;
+}
+
+.landing .button {
+  background-color: transparent;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: solid 3px white;
+  font-size: 16px;
+  transition: all 0.5s ease;
+  color: white;
+  margin-top: 20px;
+  position: absolute;
+  top: 70%;
+  left: 62%;
+  font-size: 2em;
+}
+.landing .button:hover {
+  background-color: white;
+  color: black;
+  
+}
+
+
