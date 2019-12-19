@@ -1,4 +1,4 @@
-Sitemap: https://acuariodemalaga.netlify.com/?fbclid=IwAR1mOkNX86Sj7gdlMGs9W2Z6sUARQC4wO6OZDriLwMWLze6Ogdz82V2F97E/sitemap.xml
-
 User-agent: *
 Allow: /
+Allow: /sitemap.htm
+Sitemap: https://acuariodemalaga.netlify.com/sitemap.xml
