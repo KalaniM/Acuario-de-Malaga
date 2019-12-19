@@ -99,9 +99,8 @@
   font-size: 20px;
 }
 .button {
-  right: 160px;
-  top: 660px;
-  z-index: 7;
+  right: -117px;
+  top: 60px;
   background-color: white;
   border: none;
   margin: 20px;
@@ -109,7 +108,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  position: absolute;
+  position: relative;
   border: solid 1px black;
   font-size: 16px;
   transition: all 0.5s ease;
@@ -122,10 +121,13 @@
   box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
 }
+.otherArticles {
+  margin: 40px 180px 0px -188px;
+}
 aside {
   cursor: pointer;
   text-align: right;
-  margin: 80px 180px 0px -550px;
+  margin: 80px 0px 0px 80px;
 }
 aside h4 {
   font-weight: bold;

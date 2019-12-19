@@ -3,8 +3,8 @@ import NextArticle from './cta';
 
 class OtherArticles extends PureComponent {
   render() {
-    return ( <div>
-      <aside >
+    return ( <div className="otherArticles">
+      <aside>
         <h4>Découverte</h4>
         <h5>Le Sunfish</h5>
         <hr/>
