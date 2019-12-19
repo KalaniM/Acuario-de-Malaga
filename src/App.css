@@ -143,7 +143,6 @@ aside hr {
   border-radius: 10px;
 }
 
-
 .landing img {
   width: auto;
   height: 75vh;
@@ -151,24 +150,24 @@ aside hr {
   /* border: solid 10px black; */
 }
 .landing .content-left {
-  position: absolute;
-  bottom: 20%;
+  position: fixed;
+  bottom: 50%;
   left: 15vw;
   letter-spacing: 3px;
   color: white;
   font-size: 4em;
   font-weight: bolder;
 }
-.landing .content-right h2{
+.landing .content-right h2 {
   background-color: transparent;
   position: absolute;
   bottom: 30%;
-  left: 63%;
+  left: 50%;
   letter-spacing: 3px;
   color: white;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bolder;
-  max-width: 17vw;
+  max-width: 400px;
 }
 
 .landing .button {
@@ -182,16 +181,13 @@ aside hr {
   font-size: 16px;
   transition: all 0.5s ease;
   color: white;
-  margin-top: 20px;
   position: absolute;
-  top: 70%;
-  left: 62%;
-  font-size: 2em;
+  top: 75%;
+  left: 57%;
+  font-size: 14px;
+  width: 120px;
 }
 .landing .button:hover {
   background-color: white;
   color: black;
-  
 }
-
-

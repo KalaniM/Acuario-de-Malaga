@@ -1,7 +1,8 @@
 import React, { PureComponent } from 'react';
-import { molette } from '../img';
-import Header from './header';
 import { Link } from 'react-router-dom'
+
+import Header from './header';
+import { molette } from '../img';
 
 class Landing extends PureComponent {
 
