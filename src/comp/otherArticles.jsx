@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import NextArticle from './cta';
 
 class OtherArticles extends PureComponent {
   render() {
@@ -16,6 +17,7 @@ class OtherArticles extends PureComponent {
         <h4>Enquête</h4>
         <h5>La migration des petites crevettes bleues</h5>
       </aside>
+      <NextArticle/>
     </div> );
   }
 }
